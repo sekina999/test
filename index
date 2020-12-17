@@ -1,0 +1,295 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    section2{
+  width: 62%;
+  height: 3000px;
+  padding: 2px;
+  float: right;
+  text-align: left;
+  font-family: .serif;
+
+}
+section{
+  width: 35%;
+  height: 3000px;
+  float:left;
+  background: rgb(230, 230, 250);
+  border: 3px solid darkblue;
+  font-family: .sanserif;
+
+
+}
+
+body{
+  background:rgb(248, 248, 255);
+
+ }
+    div.photo {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 50px;
+}
+    div.photo:hover {
+  border: 1px solid #777;
+}
+
+div.photo img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+    ul.menul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #000;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #111;
+    }
+  </style>
+
+  <ul class="menul">
+    <li><a class="active" href="#B1">Home</a></li>
+    <li><a href="#B2">Experience</a></li>
+    <li><a href="#B3">Skills</a></li>
+    <li><a href="#B4">Contact</a></li>
+  </ul>
+</head>
+
+<section>
+  <meta charset="UTF-8">
+  <div class="myDiv">
+    <h1 id="B1">Sekina Badreldin-Mohamed Ali</h1><br>
+
+    <div class="gallery">
+  <a target="_blank" href="CVslika.jpg">
+    <img src="CVslika.jpg" alt="profile photo" width="250px" height="250px">
+  </a>
+
+    <h4>DATE OF BIRTH: 25/12/20202</h4><br>
+    <h1>CONTACT</h1>
+    <h4> Nationality: Bosnian-Herzegovinian <br>
+      Gender: Female<br>
+      Ruđera Boškovića
+      71000 Sarajevo, Bosnia and
+      Herzegovina <br>
+      📧<a href="mailto:badreldinsekina@gmail.com">badreldinsekina@gmail.com </a><br>
+      📲(+387) 6444xxxxx</h4><br>
+
+
+</section>
+</div>
+
+<section2>
+  <h1>EDUCATION AND TRAINING</H1>
+  <p class="small">
+  <h6> 05/10/2018 – CURRENT – Hrasnička cesta 15, Ilidža 71210, Sarajevo, Bosnia and Herzegovina </h6>
+  <h2>Undergraduate of Computer Science and Engineering</h2>
+  <h3>International University of Sarajevo</h3>
+  <h6><a href="https://www.ius.edu.ba/bs">www.ius.edu.ba</a><br></h6>
+  </p>
+  <h6>24/02/2020-19/06/2020 - Hacettepe Beytepe Kampüsü Üniversiteler, 06800 Çankaya/Ankara, Turska
+  </h6>
+  <h3>Hacettepe University </h3>
+  <h6><a href="https://www.hacettepe.edu.tr/english/"> www.hacettepe.edu.tr</a></h6>
+
+  <h6>10/10/2015 – 21/04/2018 – Khartoum, Sudan</h6>
+  <h2>Cambridge O-level International Certificate and High School Diploma </h2>
+  <h3>Avinash Academy</h3>
+  <h6><a href="https://vymaps.com/SD/Avinash-Academy-24765/"> www.avinashacademy.com </a></h6>
+<hr><br>
+
+  <h1 id="B2">EXPERIENCE</H1>
+  <p class="small">
+  <h6>24/09/2020 – CURRENT – Sarajevo, Bosnia and Herzegovina </h6>
+  <h2>Assisstant Account Manager </h2>
+  <h3>eMediaPatch</h3>
+  <h6><a href="https://www.emediapatch.com/"> www.emediapatch.com </a></h6>
+  </p>
+
+  <h6>20/06/2019 – 20/09/2019 – Sarajevo, Bosnia and Herzegovina </h6>
+  <h2>Assisstant Manager</h2>
+  <h3>Travel Agency Hakaya Bosnia</h3>
+  <h6>Greeted and facilitated appointment scheduling and payment processes for
+    customers of the agency. Prepared reports and collected data using Excel and
+    Microsoft Word. Resolved customer issues through phone, email, and chat
+    conversations. Used knowledge of English, Bosnian and Arabic language for
+    communication between the agency and its customers. Helped with the
+    organization and preparation of travel packages for tourists as well as used
+    relevant IT skills to help with the design of the agency's logo and
+    photographs. Kept in contact with relevant hotels, car rental companies,
+    drivers, and etc. used by the agency for arranging tourist packages.</6>
+
+    <h6>10/04/2019 – 19/04/2019 – Sarajevo, Bosnia and Herzegovina</h6>
+    <h2>Volunteer at Sarajevo Business Forum</h2>
+    <h3>Bosna Bank International</h3>
+    <h6> Preparing accreditation, tickets, and gifts for guests and partners of Sarajevo
+      Business Forum. Dealing with reporters, saving their information in a
+      database, and guiding them to the guests to be interviewed. Translating the
+      speeches of guests, as well as translating at "Be to Be" meetings between
+      potential investors and participants of the forum.</h6>
+
+    <h6>23/09/2019 – 28/09/2019 – Sarajevo, Bosnia and Herzegovina</h6>
+    <h2>Volunteer at Sarajevo Halal Fair</h2>
+    <h3>Bosna Bank International</h3>
+    <h6>Preparing accreditation, tickets, and gifts for guests and partners of Sarajevo
+      Halal Fair. Distributing tickets and registering the participants of Sarajevo
+      Halal Fair. Handling tv houses and reporters and guiding them to the guests
+      to be interviewed. Translating the speeches of guests, as well as translating at
+      the meetings between potential investors and participants of the forum.</h6>
+
+
+    <table style="width:100%" , rules="rows" , border: 1px solid black>
+      <tr>
+        <th>English</th>
+
+      </tr>
+      <tr>
+        <td>Listening<br>
+          C2
+        </td>
+        <td>Reading<br>
+          C1
+        </td>
+        <td>Spoken production<br>
+          C1
+        </td>
+        <td>Spoken interaction<br>
+          C1</td>
+        <td>Writing<br>
+          C1</td>
+      </tr>
+
+
+      <th>Arabic</th>
+      <tr>
+        <td class="5px">Listening<br>
+          B1</td>
+        <td>Reading<br>
+          B1</td>
+        <td>Spoken production<br>
+          A2</td>
+        <td>Spoken interaction<br>
+          A2</td>
+        <td>Writing<br>
+          B1</td>
+      </tr>
+
+
+      <th>Turkish</th>
+      <tr>
+        <td>Listening<br>
+          B2</td>
+        <td>Reading<br>
+          B2</td>
+        <td>Spoken production<br>
+          B1</td>
+        <td>Spoken interaction<br>
+          B1</td>
+        <td>Writing<br>
+          B1</td>
+      </tr>
+
+
+      <th>German</th>
+      <tr>
+        <td>Listening<br>
+          A2</td>
+        <td>Reading<br>
+          A2</td>
+        <td>Spoken production<br>
+          A2</td>
+        <td>Spoken interaction<br>
+          A2</td>
+        <td>Writing<br>
+          A2</td>
+      </tr>
+
+
+    </table> <br>
+
+    <h2 id="B3">DIGITAL SKILLS</h2>
+    <h4>Programming languages</h4>
+
+    <ul class="ul2">
+      <li>CC++ Programming / Basic Database Management with SQL / Basic
+        JavaScript / HTML CSS and JavaScript / Programming languages known JAVA
+        C Python</li>
+    </ul><br>
+
+    <h4>Communication skills</h4>
+
+    <ul>
+      <li>Social Media (Facebook Instagram LinkedIn YouTube) / Zoom / Gmail / Skype </li>
+    </ul><br>
+
+    <h4>Microsoft Office</h4>
+
+    <ul>
+      <li>Microsoft Teams / Microsoft Access / Microsoft Word / Microsoft Excel / Microsoft PowerPoint / Microsoft Outlook </li>
+    </ul><br>
+
+
+    <h4>Other</h4>
+
+    <ul>
+      <li>Google Docs / Google Drive / Internet browsers / Internet Skills / Adobbe
+        Photoshop </li>
+    </ul><br>
+  <hr><br>
+
+
+    <h1>NETWORKS AND MEMBERSHIPS</H1>
+    <h6> 26/10/2019 – CURRENT – Džemala Bijedića 122,71 000 Sarajevo </h6>
+    <h2>Member of Tignum</h2>
+    <h6>Nahla Centar for education and research
+      The mission of Tignum and Nahla is: "Empowering women through
+      education and creation of stimulating environment for their personal
+      development and competent participation in social processes."
+      I participate in learning how to improve personal and professional capacities,
+      learn how to be active in society, how to use various activist tools, how to
+      research problems within the community, participate in local and
+      international projects, initiatives, and campaigns.</h6>
+    <h6><a href="https://nahla.ba/">www.nahla.ba</a><br></h6>
+
+
+    <h4 id="B4">CONTACT ME</h4>
+    <form action="mailto:badreldinsekina@gmail.com”>
+    <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname">   <br>
+  <label for="message">Message:</label><br>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+  </form>
+
+
+</section2>
+
+</html>
